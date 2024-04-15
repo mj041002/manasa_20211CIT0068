@@ -7,7 +7,7 @@ ajaxexample.html
                     font-family: Helvetica;
                     text-align: center;
                 }
-                #birthady-greeting{
+                #birthday-greeting{
                     font-size: 72px;
                     color: red;
                     text-transform: uppercase;
@@ -42,6 +42,6 @@ surprise.html
     <head>
         </head>
         <body>
-            <h1 id="birthady-greeting">It's Your Birthady!!</h1>
+            <h1 id="birthday-greeting">It's Your Birthday!!</h1>
         </body>
         </html>
