@@ -1,0 +1,100 @@
+BIO DATA=>
+<html>
+<head>
+<title>
+My Biodata
+</title>
+<link rel="stylesheet" type="text/css" href="my sheet.css">
+</head>
+
+<body>
+<h1><center><b><u>BIO DATA</u></b></center></h1>
+
+<div class="side1">
+<img src="C:\Users\MANASA\Downloads\WhatsApp Image 2024-02-25 at 11.10.52 PM.jpeg" align="right" height=100 width=80>
+<h2><u>Personal Information</u></h2>
+<p><b>Name</b>                  : Manasa J</p>
+<p><b>DOB</b>                     : 04/10/2002</p>
+<p><b>Father's Name</b>      : Jagadeesh</p>
+<p><b>Mother's Name</b>     : Gayathri</p>
+<p><b>Gender</b>                       : Female</p>
+<p><b>Religion</b>                : Hindu</p>
+<p><b>Nationality</b>            : Indian</p>
+<p><b>Language Spoken</b> : Kannada, English</p>
+<p><b>Address</b>               : R.T.Nagar,CBI Main Road,Bangalore-32</p>
+</div> 
+
+<div class="side2">
+<h2><u>Academics</u></h2>
+<b>Course Name - </b>B. Tech<br>
+<b>Branch Name -</b> Computer Science Engineering<br>
+<b>CGPA -</b> 8.4<br>
+<b>Institute Name -</b> Presidency University
+</div>
+
+<div class="side3">
+<h2><u>Hobbies</u></h2>
+Travelling<br>
+Watching movies<br>
+Dancing<br>
+</div>
+
+<div class="side4">
+<h2><u>Skills</u></h2>
+        <p>Visual Basic, C, C++, JAVA, Html</p>
+</div>
+</body>
+</html>
+
+my sheet.css=>
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background-color : #9c9f84;
+	margin : 0px;
+	font-family:serif;
+	font-size:17px
+}
+
+h2 {
+font-size : 220%;
+text-align : center;
+color : #e5e4d7;
+font-family : "century gothic" ,"gill sans",arial;
+margin:0px;
+}
+
+.side1{
+	margin-top:25px;
+	margin-left:350px;
+	align:center;
+	width:370px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+.side2{
+	margin-top:25px;
+	margin-left:350px;
+	align:center;
+	width:370px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+.side3{
+	margin-top:25px;
+	margin-left:350px;
+	align:center;
+	width:370px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
+.side4{
+        margin-top:25px;
+	margin-left:350px;
+	align:center;
+	width:370px;
+	background-color:#4c7c4b;
+	box-shadow:15px 15px 5px #a9755e;
+}
