@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidency University Registration</title>
+    <style>
+        /* CSS code for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="tel"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\MANASA\Downloads\p.jpg" alt="Presidency University Logo" style="max-width: 100%;">
+        <h2><center><u>Registration Form</u></center></h2>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program">
+            <option value="Course">Course</option>
+            <option value="Computer Science Engineering">Computer Science Engineering</option>
+            <option value="Electronics and Communication">Electronics and Communication</option>
+            <option value="AI and ML">AI and ML</option>
+            <option value="EEE">EEE</option>
+            <option value="Business Administration">Business Administration</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
